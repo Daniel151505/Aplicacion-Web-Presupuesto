@@ -9,5 +9,11 @@ export class EgresoService {
         new Egreso('Renta',400),
         new Egreso('Ropa',600)
     ]
+
+    eliminar(egreso: Egreso){
+        const indice: number = this.egresos.indexOf(egreso);
+        this.egresos.splice(indice,1);
+
+    }
     
 }
