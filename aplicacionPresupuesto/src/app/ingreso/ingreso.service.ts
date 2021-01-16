@@ -1,7 +1,7 @@
 //importando servicio
 import { Ingreso } from "./ingreso.model";
 
-export class ingresoService {
+export class IngresoService {
     constructor() {}
     
     //Creando Arreglo

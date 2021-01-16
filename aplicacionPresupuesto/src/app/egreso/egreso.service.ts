@@ -1,6 +1,6 @@
 import { Egreso } from "./egreso.model";
 
-export class egresoService {
+export class EgresoService {
     constructor() {}
 
     //Creando Arreglo
