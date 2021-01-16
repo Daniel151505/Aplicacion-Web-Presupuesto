@@ -26,7 +26,7 @@ export class AppComponent {
   getIngresoTotal(){
     let ingresoTotal : number = 0;
     this.ingresos.forEach(ingreso => {
-      ingresoTotal =+ ingreso.valor;
+      ingresoTotal += ingreso.valor;
     });
 
     return ingresoTotal;
