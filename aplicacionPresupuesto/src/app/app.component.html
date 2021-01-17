@@ -1,3 +1,4 @@
+
 <app-cabecero
 [presupuestoTotal]="getPresupuestoTotal()"
 [ingresoTotal]="getIngresoTotal()"
@@ -5,14 +6,21 @@
 [porcentajeTotal]="getPorcentajeTotal()" >
 </app-cabecero>
 
+
 <app-formulario></app-formulario>
 
   
-  <div class="contenedor limpiarEstilos">
-     <app-ingreso></app-ingreso>
-      <app-egreso
-      [ingresoTotal]="getIngresoTotal()">
-    </app-egreso>
+  <div class="contenedor limpiarEstilos container">
+  <div class="row">
+         <div class="col-lg-6">
+          <app-ingreso></app-ingreso>
+        </div>
+        <div class="col-lg-6">
+          <app-egreso
+          [ingresoTotal]="getIngresoTotal()">
+          </app-egreso>
+        </div>
+  </div>
   </div>
 
 <router-outlet></router-outlet>
