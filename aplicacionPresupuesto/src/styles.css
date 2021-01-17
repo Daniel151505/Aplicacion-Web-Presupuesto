@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Potta One', cursive;
 }
 
 .limpiarEstilos::after {
@@ -191,8 +192,14 @@ h2 {
     margin-bottom: 15px;
 }
 
-.ingreso_titulo { color: #28B9B5; }
-.egreso_titulo { color: #FF5049; }
+.ingreso_titulo { 
+    color: #28B9B5; 
+    text-align: center;
+}
+.egreso_titulo { 
+    color: #FF5049;
+    text-align: center;
+ }
 
 .elemento {
     padding: 13px;
